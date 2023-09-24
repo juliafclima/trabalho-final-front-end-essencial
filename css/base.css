@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* {
+   background-color: rgb(99, 94, 94);
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.tituloPrincipal, .tituloSecundario {
+   color: rgb(224, 219, 219);
+   text-align: center;
+   font-size: 3em;
+   margin-top: 40px;
+}
+
+.tituloSecundario {
+   font-size: 2em;
+}

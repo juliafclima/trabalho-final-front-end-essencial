@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* barra de pesquisa */
+#divBusca {
+   background-color: #2F4F4F;
+   border: solid 1px;
+   border-radius: 15px;
+   width: 300px;
+}
+
+#textoBusca {
+   float: left;
+   background-color: transparent;
+   padding-left: 5px;
+   font-style: italic;
+   font-size: 18px;
+   border: none;
+   height: 32px;
+   width: 260px;
+}
+
+#lupa {
+   border: none;
+   float: left;
+   height: 32px;
+   border-radius: 0 7px 7px 0;
+   width: 70px;
+   font-weight: bold;
+   background: #5F9EA0;
+}
+
+#divBusca img {
+   float: left;
+}
+
+/* card perfil */
+.card {
+   background-color: #f2f2f2;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   padding: 20px;
+   margin: 20px;
+   width: 300px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+.card h2 {
+   font-size: 24px;
+   margin-bottom: 10px;
+   background-color: #f2f2f2;
+}
+
+.card p {
+   font-size: 18px;
+   line-height: 1.5;
+   margin-bottom: 20px;
+   background-color: #f2f2f2;
+}
+
+.card button {
+   background-color: rgb(201, 84, 84);
+   border: none;
+   border-radius: 15px;
+   padding: 10px 20px;
+   color: white;
+   font-weight: bolder;
+}
+
+.card img {
+   width: 200px;
+   height: auto;
+   margin-bottom: 20px;
+   background-color: #f2f2f2;
+   border-radius: 10px;
+}
+
+.conteiner-cards {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding: 10px;
+   text-align: center;
+}
