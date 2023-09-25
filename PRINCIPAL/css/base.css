@@ -21,3 +21,15 @@
 .tituloSecundario {
    font-size: 2em;
 }
+
+p {
+font-style: italic;
+}
+
+footer, span {
+   text-align: center;
+   background-color: white;
+   color: black;
+   padding: 10px 0;
+   
+}

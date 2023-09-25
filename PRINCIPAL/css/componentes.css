@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /* barra de pesquisa */
 #divBusca {
    background-color: #2F4F4F;
@@ -37,7 +38,7 @@
    background-color: #f2f2f2;
    border-radius: 10px;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-   padding: 20px;
+   padding: 50px 30px 30px 30px;
    margin: 20px;
    width: 300px;
    display: flex;
@@ -45,6 +46,17 @@
    align-items: center;
    justify-content: center;
    text-align: center;
+   transition: 500ms linear;
+}
+
+.card:hover {
+   transition: 500ms linear;
+}
+
+.transicaoCard:hover {
+   -webkit-transform: scale(1.1);
+   -ms-transform: scale(1.1);
+   transform: scale(1.1);
 }
 
 .card h2 {
@@ -67,14 +79,33 @@
    padding: 10px 20px;
    color: white;
    font-weight: bolder;
+   transition: 500ms linear;
+}
+
+.card button:hover,
+.card button:focus {
+   background: rgb(90, 90, 209);
 }
 
 .card img {
-   width: 200px;
+   width: 250px;
    height: auto;
    margin-bottom: 20px;
    background-color: #f2f2f2;
-   border-radius: 10px;
+   border-radius: 50%;
+   transition: 2000ms linear;
+}
+
+.card img:hover {
+   transform: rotateY(180deg);
+}
+
+.borda9D5C63 {
+   box-shadow: 5px 3px 10px 0px #9D5C63;
+}
+
+.bordaDCB8CB {
+   box-shadow: 5px 3px 10px 0px #DCB8CB;
 }
 
 .conteiner-cards {
