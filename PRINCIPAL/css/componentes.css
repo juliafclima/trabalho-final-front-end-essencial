@@ -108,8 +108,12 @@
    box-shadow: 5px 3px 10px 0px #976153;
 }
 
-.borda {
+.borda342F34 {
    box-shadow: 5px 3px 10px 0px #342F34;
+}
+
+.borda576274 {
+   box-shadow: 5px 3px 10px 0px #576274;
 }
 
 .conteiner-cards {
@@ -118,4 +122,65 @@
    justify-content: center;
    padding: 10px;
    text-align: center;
+}
+
+.conteinerCarrousel {
+   position: relative;
+   padding: 50px;
+   max-width: 640px;
+   margin: 0 auto;
+}
+
+.carrousel {
+   overflow-x: auto;
+   -ms-overflow-style: none;
+}
+
+.carrousel::-webkit-scrollbar {
+   display: none;
+}
+
+.galeria {
+   display: flex;
+   flex-flow: row nowrap;
+   gap: 15px;
+}
+
+.setaEsquerda,
+.setaDireita {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: auto;
+   bottom: 0;
+   font-size: 20px;
+   line-height: 250px;
+   width: 30px;
+   cursor: pointer;
+   border: none;
+   opacity: 0.3;
+   transition: all 600ms ease-in-out;
+   color: #fff;
+   background: linear-gradient(to left, transparent 0%, var(--cor04));
+}
+
+.setaDireita {
+   left: auto;
+   right: 0;
+   background: linear-gradient(to right, transparent 0%, var(--cor04));
+}
+
+.setaEsquerda:hover,
+.setaDireita:hover {
+   opacity: 1;
+}
+
+.item {
+   opacity: 0.2;
+   transition: all 600ms ease-in-out;
+   padding: 20px 25px;
+}
+
+.currentItem {
+   opacity: 1;
 }

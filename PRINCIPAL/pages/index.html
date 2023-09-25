@@ -4,12 +4,13 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Portfolio : Grupo 6</title>
-      <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+      <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon" />
       <link rel="stylesheet" href="../css/base.css" />
       <link rel="stylesheet" href="../css/layout.css" />
       <link rel="stylesheet" href="../css/bootstrap-grid.min.css" />
       <link rel="stylesheet" href="../css/componentes.css" />
       <link rel="stylesheet" href="../css/searchBar.css" />
+      <script src="../js/carrousel.js" defer></script>
    </head>
    <body>
       <header>
@@ -33,42 +34,61 @@
       <main>
          <h2 class="tituloSecundario">Perfis</h2>
 
-         <section class="cards" id="sobre">
-            <div class="conteiner-cards">
-               <div class="card transicaoCard">
-                  <img
-                     class="borda9D5C63"
-                     src="../../PORTFOLIO_ROGER/imagemRoger.jpg"
-                     alt="Imagem do Integrante"
-                  />
-                  <h2>Róger Ferreira</h2>
-                  <p>"Desistir não é uma opção!"</p>
-                  <button>Saiba mais</button>
-               </div>
+         <div class="conteinerCarrousel" id="FOTOS">
+            <button class="setaEsquerda control" aria-label="Previous image">
+               ◀
+            </button>
+            <button class="setaDireita control" aria-label="Next image">
+               ▶
+            </button>
+            <div class="carrousel">
+               <div class="galeria">
+                  <div class="card transicaoCard item currentItem">
+                     <img
+                        class="borda9D5C63"
+                        src="../../PORTFOLIO_ROGER/imagemRoger.jpg"
+                        alt="Imagem do Integrante"
+                     />
+                     <h2>Róger Ferreira</h2>
+                     <p>"Desistir não é uma opção!"</p>
+                     <button>Saiba mais</button>
+                  </div>
 
-               <div class="card transicaoCard">
-                  <img
-                     class="borda"
-                     src="../../PORTFOLIO_MATEUS/fotoMateus.jpg"
-                     alt="Imagem do Integrante"
-                  />
-                  <h2>Mateus Oliveira</h2>
-                  <p>"Eu não me limito, <br>não faça isso por mim"</p>
-                  <button>Saiba mais</button>
-               </div>
+                  <div class="card transicaoCard item">
+                     <img
+                        class="borda342F34"
+                        src="../../PORTFOLIO_MATEUS/fotoMateus.jpg"
+                        alt="Imagem do Integrante"
+                     />
+                     <h2>Mateus Oliveira</h2>
+                     <p>"Eu não me limito, <br />não faça isso por mim"</p>
+                     <button>Saiba mais</button>
+                  </div>
 
-               <div class="card transicaoCard">
-                  <img
-                     class="bordaDCB8CB"
-                     src="../../PORTFOLIO_JULIA/fotoJulia.png"
-                     alt="Imagem do Integrante"
-                  />
-                  <h2>Júlia Lima</h2>
-                  <p>"Hello, world!"</p>
-                  <button>Saiba mais</button>
+                  <div class="card transicaoCard item">
+                     <img
+                        class="borda576274"
+                        src="../../PORTFOLIO_THIAGO/fotoThiago.jpg"
+                        alt="Imagem do Integrante"
+                     />
+                     <h2>Thiago Garcia</h2>
+                     <p>"Preparo + oportunidade <br>= sorte"</p>
+                     <button>Saiba mais</button>
+                  </div>
+
+                  <div class="card transicaoCard item">
+                     <img
+                        class="bordaDCB8CB"
+                        src="../../PORTFOLIO_JULIA/fotoJulia.png"
+                        alt="Imagem do Integrante"
+                     />
+                     <h2>Júlia Lima</h2>
+                     <p>"Hello, world!"</p>
+                     <button>Saiba mais</button>
+                  </div>
                </div>
             </div>
-         </section>
+         </div>
       </main>
       <footer>
          <span>Desenvolvido por Julia Lima, Róger Ferreira...</span>
