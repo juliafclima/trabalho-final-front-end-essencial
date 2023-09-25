@@ -101,11 +101,15 @@
 }
 
 .borda9D5C63 {
-   box-shadow: 5px 3px 10px 0px #9D5C63;
+   box-shadow: 5px 3px 10px 0px #8F9D50;
 }
 
 .bordaDCB8CB {
-   box-shadow: 5px 3px 10px 0px #DCB8CB;
+   box-shadow: 5px 3px 10px 0px #976153;
+}
+
+.borda {
+   box-shadow: 5px 3px 10px 0px #342F34;
 }
 
 .conteiner-cards {
