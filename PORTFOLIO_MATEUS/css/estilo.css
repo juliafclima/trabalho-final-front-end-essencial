@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+* {
+   /* CONFIGURAÇÕES GLOBAIS DO SITE */
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   /* a margin e o padding não se somam */
+}
+
+.layout__principal {
+   min-width: 300px;
+   max-width: 900px;
+   margin: auto;
+   background: linear-gradient(to bottom, rgb(5, 6, 12) 0%, rgb(187, 182, 203) 100%);
+}
+
+.layout__cabecalho {
+   padding: 20px;
+}
+
+.img {
+   width: 30%;
+   border-radius: 100%;
+   margin-top: 20px;
+   margin-left: 20px;
+}
+
+.layout__navegacao {
+   text-align: right;
+   padding-bottom: 20px;
+}
+
+a {
+   margin-left: 20px;
+   padding: 20px;
+}
+
+.tituloPrincipal {
+   text-align: right;
+}
+
+.bloco {
+   background-color: white;
+   margin: 20px;
+}
+
+.tituloBloco {
+   display: inline-block;
+   background-color: white;
+   padding: 10px;
+   border-radius: 5px;
+   margin-bottom: -20px;
+}
