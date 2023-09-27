@@ -40,7 +40,12 @@
   
 
 }
-a {
+.linkedin{
+  color: white; 
+  
+
+ }
+ .botao {
   margin-left: 70px;
   padding: 15px;
   background-color: rgba(87, 87, 121, 0.724);
@@ -51,14 +56,14 @@ a {
   box-shadow: inset 0 0 0 2px white;
   
 }
-a:hover {
+.botao:hover {
   background-color: white;
   text-decoration: underline;
   transition: 500ms ease-in-out;
   color: rgb(51, 50, 50);
  
   
-}
+} 
 
 .tituloPrincipal {
   text-align: right;
@@ -105,6 +110,8 @@ a:hover {
     margin-top: 0px;
     background: linear-gradient(to bottom, #19283141, #293f8921);
     text-align: center;
+    line-height: 30px;
+
     
     
   
@@ -129,6 +136,8 @@ a:hover {
     margin-top: 0px;
     background: linear-gradient(to bottom, #19283141, #293f8921);
     text-align: center;
+    line-height: 30px;
+
   
 }
 
@@ -144,17 +153,19 @@ a:hover {
 .tags{
   
  text-align: center;
-  animation: slide 2s alternate infinite linear;
+ animation: fadeIn .7s alternate infinite ease-in-out;
 }
-@keyframes slide {
+@keyframes fadeIn {
   0% {
-    transform: translateX(0);
+    opacity: 0.2;
   }
   100% {
-    transform: translateX(10%);
-  
+    opacity: 1;
   }
 }
+
+
+
 .tag{
 margin-right: 29px;
 
@@ -171,6 +182,7 @@ footer {
   margin-bottom: -10px;
   margin-top: 150px;
   border-radius: 100px;
+  line-height: 30px;
 }
 #cena{
  opacity: 70%;
@@ -194,5 +206,6 @@ footer {
   background: linear-gradient(to bottom, #125b88, #0e1631);
   border-radius: 20px;
   margin-bottom: 20px;
+  
 
  }
