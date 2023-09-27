@@ -2,21 +2,6 @@
 <html lang="pt-br">
 
 <head>
-   <script async
-      src="https://www.googletagmanager.com/gtag/js?id=G-5T27SVKBC3"></script>
-   <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-         dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "G-5T27SVKBC3");
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-         dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-   </script>
    <meta charset="UTF-8" />
    <meta http-equiv="X-UA-Compatible"
       content="IE=edge" />
@@ -34,6 +19,14 @@
    <link rel="shortcut icon"
       href="./src/img/png/favicon.png"
       type="image/x-icon" />
+   <link rel="preconnect"
+      href="https://fonts.googleapis.com">
+   <link rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet">
+      <script src="../js/animarTexto.js"></script>
    <title>Portfólio | Júlia Lima - Desenvolvedora Full-Stack</title>
 </head>
 
@@ -48,20 +41,17 @@
             Oi, eu sou a
             <span class="introducao--titulo-color">Júlia</span>
             <br />
-            <span class="introducao--titulo-aumentar">Desenvolvedora<br>Full-Stack</span>
+            <span class="introducao--titulo-aumentar" id="texto-maquina"></span>
          </h2>
          <div class="introducao--links">
-            <a href="https://www.linkedin.com/in/juliafclima/"#303057
+            <a href="https://www.linkedin.com/in/juliafclima/"
+               #303057
                class="introducao-cv"
                target="_blank">LinkedIn</a>
 
             <a href="https://github.com/juliafclima"
                class="introducao-cv"
                target="_blank">GitHub</a>
-
-            <a href="#"
-               class="introducao-cv"
-               download>Download CV</a>
          </div>
 
       </div>
@@ -71,7 +61,10 @@
       <div class="sobre--container">
          <div class="sobre--container-perfil">
             <p class="sobre--descricao">
-               🧑‍🎓<br> Estudante de Sistemas da Informação na Universidade Estácio de Sá
+               💻<br> Sou uma desenvolvedora Full-Stack!
+            </p>
+            <p class="sobre--descricao">
+               🧑‍🎓<br> Estudante de Sistemas da Informação na Universidade Estácio de Sá atualmente no 6° período
             </p>
             <p class="sobre--descricao">
                🏡<br> Moro no interior do Rio de Janeiro em uma cidade chamada Petrópolis!
@@ -82,12 +75,76 @@
             <p class="sobre--descricao">
                🎮<br> Amo jogar vídeo-game! (PSN: juliafclima)
             </p>
-            <p class="sobre--descricao">
-               💻<br> Sou uma desenvolvedora Full-Stack!
-            </p>
+            
          </div>
       </div>
    </section>
+      <section class="tecnologias">
+         <h1 class="titulo">Tecnologias</h1>
+         <div class="sobre--container">
+            <div class="sobre--container-perfil">
+               <img loading="lazy"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                  width="40"
+                  height="40"
+                  class="sobre--descricao" />
+      
+               <img loading="lazy"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                  width="40"
+                  height="40"
+                  class="sobre--descricao" />
+      
+               <img loading="lazy"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                  width="40"
+                  height="40"
+                  class="sobre--descricao" />
+      
+               <img loading="lazy"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                  width="40"
+                  height="40"
+                  class="sobre--descricao" />
+      
+               <img loading="lazy"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                  width="40"
+                  height="40"
+                  class="sobre--descricao" />
+      
+               <img loading="lazy"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                  width="40"
+                  height="40"
+                  class="sobre--descricao" />
+      
+               <img loading="lazy"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+                  width="40"
+                  height="40"
+                  class="sobre--descricao" />
+      
+               <img loading="lazy"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                  width="40"
+                  height="40"
+                  class="sobre--descricao" />
+      
+               <img loading="lazy"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg"
+                  width="40"
+                  height="40"
+                  class="sobre--descricao" />
+      
+               <img loading="lazy"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                  width="40"
+                  height="40"
+                  class="sobre--descricao" />
+            </div>
+         </div>
+      </section>
    <section class="projetos"
       id="Projetos">
       <h1 class="titulo">Projetos</h1>
@@ -170,72 +227,6 @@
                   rel="noopener noreferrer"
                   class="card--botao">Acesso ao Site</a>
             </div>
-         </div>
-      </div>
-   </section>
-   <section class="tecnologias">
-      <h1 class="titulo">Tecnologias</h1>
-      <div class="sobre--container">
-         <div class="sobre--container-perfil">
-            <img loading="lazy"
-               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-               width="40"
-               height="40"
-               class="sobre--descricao" />
-
-            <img loading="lazy"
-               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-               width="40"
-               height="40"
-               class="sobre--descricao" />
-
-            <img loading="lazy"
-               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-               width="40"
-               height="40"
-               class="sobre--descricao" />
-
-            <img loading="lazy"
-               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-               width="40"
-               height="40"
-               class="sobre--descricao" />
-
-            <img loading="lazy"
-               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
-               width="40"
-               height="40"
-               class="sobre--descricao" />
-
-            <img loading="lazy"
-               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-               width="40"
-               height="40"
-               class="sobre--descricao" />
-
-            <img loading="lazy"
-               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
-               width="40"
-               height="40"
-               class="sobre--descricao" />
-
-            <img loading="lazy"
-               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
-               width="40"
-               height="40"
-               class="sobre--descricao" />
-
-            <img loading="lazy"
-               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg"
-               width="40"
-               height="40"
-               class="sobre--descricao" />
-
-            <img loading="lazy"
-               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
-               width="40"
-               height="40"
-               class="sobre--descricao" />
          </div>
       </div>
    </section>
