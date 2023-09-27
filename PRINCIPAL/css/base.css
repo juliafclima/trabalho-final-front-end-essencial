@@ -11,11 +11,12 @@
    font-family: Arial, Helvetica, sans-serif;
 }
 
-.tituloPrincipal, .tituloSecundario {
+.tituloPrincipal,
+.tituloSecundario {
    color: rgb(224, 219, 219);
    text-align: center;
    font-size: 3em;
-   margin-top: 40px;
+   margin-top: 10px;
 }
 
 .tituloSecundario {
@@ -23,13 +24,36 @@
 }
 
 p {
-font-style: italic;
+   font-style: italic;
 }
 
-footer, span {
+footer,
+span {
    text-align: center;
+   background-color: black;
+   color: white;
+   padding: 10px 0;
+   word-spacing: 15%;
+   letter-spacing: 15%;
+}
+
+.externo {
+   text-decoration: none;
+   color: white;
+   background-color: black;
+   font-weight: bold;
+   word-spacing: 15%;
+   letter-spacing: 15%;
+}
+
+.externo:hover {
+   text-decoration: underline;
    background-color: white;
    color: black;
-   padding: 10px 0;
-   
+   padding: 2px 4px;
+   border-radius: 10px;
+}
+
+a.externo::after {
+   content: ' 🔗';
 }
