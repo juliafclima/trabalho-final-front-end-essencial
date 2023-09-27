@@ -120,6 +120,10 @@
    box-shadow: 5px 3px 10px 0px #483F3A;
 }
 
+.bordaCAE1F0 {
+   box-shadow: 5px 3px 10px 0px #CAE1F0;
+}
+
 .conteiner-cards {
    display: flex;
    flex-wrap: wrap;
@@ -188,3 +192,4 @@
 .currentItem {
    opacity: 1;
 }
+
