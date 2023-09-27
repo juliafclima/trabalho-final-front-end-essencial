@@ -7,21 +7,14 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-  
- 
  
   /* a margin e o padding não se somam */
 }
 
 .layout__principal {
-  min-width: 300px;
-  max-width: 900px;
+  
   margin: auto;
-  background: linear-gradient(
-    to bottom,
-    rgb(3, 3, 4) 0%,
-    rgb(18, 20, 83) 100%
-  );
+  background: linear-gradient(to bottom, rgb(241, 241, 245) 0%, rgb(14, 20, 62) 40%);
   padding: 30px;
   
 }
@@ -29,11 +22,11 @@
 .layout__cabecalho {
   padding: 20px;
   text-align: center;
-  background: linear-gradient(to bottom, rgb(19, 19, 82) 0%, rgb(106, 101, 121) 100%);
+  background: linear-gradient(to bottom, rgb(241, 241, 245) 0%, rgb(14, 20, 62) 100%);
 }
 
 .img {
-  width: 30%;
+  width: 22%;
   border-radius: 100%;
 
 }
@@ -61,64 +54,80 @@ a:hover {
 .tituloPrincipal {
   text-align: right;
   font-family: "Courgette", cursive;
-  color: white;
+  color: rgb(255, 255, 255);
   margin-bottom: 50px;
-  font-size: 2em;
+  font-size: 250%;
   text-align: center;
-  word-break: break-all;
+  -webkit-text-stroke: 0.01px rgb(118, 120, 158);
+  font-size: 300%;
+ 
+  
   
 }
 .tituloBloco{
-  font-size: 10px;
+  font-size: 15px;
   color: white;
   margin: 100px;
   border-radius: 10px;
   background: linear-gradient(to bottom, #125b88, #0e1631);
- margin-right: 400px;
-  
-}
-
-.bloco.sobre {
-  font-size: 18px;
-    color: white;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    background: linear-gradient(to bottom, #192831, #294089);
-    border-radius: 80px;
-    
-  
-}
-.bloco.instrucao {
-  font-size: 16px;
-    color: white;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    background: linear-gradient(to bottom, #192831, #294089);
-    border-radius: 80px;
-  
-}
-.bloco.experiencia {
-  font-size: 18px;
-    color: white;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    background: linear-gradient(to bottom, #192831, #294089);
-    border-radius: 80px;
-  
-}
-
-
-.tituloBloco {
-  display: inline-block;
-  background-color: white;
   padding: 10px;
   border-radius: 5px;
   margin-bottom: -20px;
  
 }
+.tituloBlocoI{
+  font-size: 15px;
+  color: white;
+  margin: 100px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, #125b88, #0e1631);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: -20px;
+  text-align: right;
+ 
+}
+
+
+
+.bloco.sobre {
+  font-size: 18px;
+    color: white;
+    margin: 00px;
+    padding: 80px;
+    border-radius: 10px;
+    margin-top: 0px;
+    background: linear-gradient(to bottom, #19283141, #293f8921);
+    text-align: center;
+    
+    
+  
+}
+.bloco.instrucao {
+  font-size: 18px;
+    color: white;
+    margin: 00px;
+    padding: 80px;
+    border-radius: 10px;
+    margin-top: 0px;
+    background: linear-gradient(to bottom, #19283141, #293f8921);
+    text-align: center;
+  
+}
+.bloco.experiencia {
+  font-size: 18px;
+    color: white;
+    margin: 00px;
+    padding: 80px;
+    border-radius: 10px;
+    margin-top: 0px;
+    background: linear-gradient(to bottom, #19283141, #293f8921);
+    text-align: center;
+  
+}
+
+
+
 @media (max-width: 800px) {
   .layout__navegacao {
     text-align: center; /* Centraliza os links */
@@ -127,21 +136,22 @@ a:hover {
   }
 }
 .tags{
-  margin: 50px;
-  margin-left: 15px;
-  animation: slide 3s alternate infinite linear;
+  
+ text-align: center;
+  animation: slide 2s alternate infinite linear;
 }
 @keyframes slide {
   0% {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(20%);
+    transform: translateX(10%);
   
   }
 }
 .tag{
 margin-right: 29px;
+
 }
 
 footer {
@@ -151,8 +161,32 @@ footer {
   text-align: center; 
   margin-bottom: 50px;
   color: white;
-  background: linear-gradient(to bottom, #192831, #3556c2);
+  background: linear-gradient(to bottom, #19283192, #3556c21f);
   margin-bottom: -10px;
   margin-top: 150px;
   border-radius: 100px;
 }
+#cena{
+ opacity: 70%;
+ margin-bottom: -174px;
+ 
+}
+#chapeu{
+  opacity: 60%;
+  margin-bottom: -180px;
+  text-align: right;
+  
+ }
+ #trabalho{
+  opacity: 70%;
+  margin-bottom: -180px;
+ }
+ #contato{
+  font-size: 18px;
+  color: white;
+  margin: 10px;
+  background: linear-gradient(to bottom, #125b88, #0e1631);
+  border-radius: 20px;
+  margin-bottom: 20px;
+
+ }
