@@ -72,7 +72,7 @@
    background-color: #f2f2f2;
 }
 
-.card button {
+.card .button {
    background-color: rgb(201, 84, 84);
    border: none;
    border-radius: 15px;
@@ -82,8 +82,8 @@
    transition: 500ms linear;
 }
 
-.card button:hover,
-.card button:focus {
+.card .button:hover,
+.card .button:focus {
    background: rgb(90, 90, 209);
 }
 
@@ -114,6 +114,10 @@
 
 .borda576274 {
    box-shadow: 5px 3px 10px 0px #576274;
+}
+
+.borda483F3A {
+   box-shadow: 5px 3px 10px 0px #483F3A;
 }
 
 .conteiner-cards {
