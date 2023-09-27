@@ -23,6 +23,7 @@
   padding: 20px;
   text-align: center;
   background: linear-gradient(to bottom, rgb(241, 241, 245) 0%, rgb(14, 20, 62) 100%);
+  
 }
 
 .img {
@@ -32,23 +33,31 @@
 }
 
 .layout__navegacao {
-  text-align: right;
-  padding-bottom: 10px;
-  margin-bottom: 15px;
+  
+  margin-right: 90%;
+  display: inline;
+  display: inline-block;
+  
+
 }
 a {
-  margin-left: 20px;
+  margin-left: 70px;
   padding: 15px;
   background-color: rgba(87, 87, 121, 0.724);
   border-radius: 20px;
   text-decoration: none;
   color: white;
+  display: flex;
+  box-shadow: inset 0 0 0 2px white;
+  
 }
 a:hover {
   background-color: white;
   text-decoration: underline;
   transition: 500ms ease-in-out;
   color: rgb(51, 50, 50);
+ 
+  
 }
 
 .tituloPrincipal {
@@ -58,10 +67,8 @@ a:hover {
   margin-bottom: 50px;
   font-size: 250%;
   text-align: center;
-  -webkit-text-stroke: 0.01px rgb(118, 120, 158);
-  font-size: 300%;
- 
-  
+  -webkit-text-stroke: 0.01px rgb(54, 57, 124);
+  font-size: 200%;
   
 }
 .tituloBloco{
@@ -87,7 +94,6 @@ a:hover {
   text-align: right;
  
 }
-
 
 
 .bloco.sobre {
