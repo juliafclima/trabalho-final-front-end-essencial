@@ -85,7 +85,45 @@
     margin: 1rem;
 }
 
-.projetos .componente-projetos img{
-    width: 80%;
+.projetos {
+    margin-bottom: 2rem;
 }
 
+/* .projetos .componente-projetos {
+    margin: 2rem auto;
+}
+
+.projetos h2 {
+    margin-bottom: 2rem;
+}
+
+.carousel .carousel-inner .componente-projetos img{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.projetos .componente-projetos p{
+    margin-top: 2rem;
+}
+
+.projetos .componente-projetos a{
+    margin: .5rem;
+} */
+
+.projetos h2 {
+    margin-bottom: 2rem;
+}
+
+.carousel-item img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.carousel-item p {
+    margin-top: 2rem;
+}
+
+.carousel-item .links a {
+    margin: .5rem;
+}
