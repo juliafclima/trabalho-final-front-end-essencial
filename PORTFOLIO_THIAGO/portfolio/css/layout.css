@@ -2,7 +2,10 @@
     min-width: 100%;
 }
 
-.layout-header, .layout-clima, .tecnologias, .projetos {
+.layout-header,
+.layout-clima,
+.tecnologias,
+.projetos {
     background-color: var(--dark-gray);
     color: #fff;
     border: 1px solid var(--alt-gray);
@@ -61,7 +64,8 @@
     margin: 2rem auto;
 }
 
-.sobre .texto h3, p {
+.sobre .texto h3,
+p {
     margin-bottom: 2rem;
 }
 
@@ -120,20 +124,29 @@
 
 .icones a {
     text-decoration: none;
+    transition: .3s ease-in-out;
+}
+
+.icones img {
+    transition: .2s ease-in-out;
+}
+
+.icones img:hover {
+    transform: scale(1.2);
 }
 
 /* barra de rolagem */
 
 body::-webkit-scrollbar {
-    width: 12px;               /* width of the entire scrollbar */
-  }
-  
-  body::-webkit-scrollbar-track {
-    background: var(--alt-gray);        /* color of the tracking area */
-  }
-  
-  body::-webkit-scrollbar-thumb {
-    background-color: var(--orange);    /* color of the scroll thumb */
-    border-radius: 20px;       /* roundness of the scroll thumb */
-    border: 3px solid var(--dark-gray);  /* creates padding around scroll thumb */
-  }
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--alt-gray);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--orange);
+    border-radius: 20px;
+    border: 3px solid var(--dark-gray);
+}
