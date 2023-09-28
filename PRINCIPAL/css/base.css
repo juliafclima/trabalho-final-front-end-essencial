@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 * {
-   background-color: rgb(99, 94, 94);
+   background-color: rgb(179, 174, 174);
    margin: 0;
    padding: 0;
    border: 0;
@@ -35,13 +35,14 @@ span {
    padding: 10px 0;
    word-spacing: 15%;
    letter-spacing: 15%;
+   margin-top: 20px;
 }
 
 .externo {
    text-decoration: none;
    color: white;
    background-color: black;
-   font-weight: bold;
+   font-weight: bold; 
    word-spacing: 15%;
    letter-spacing: 15%;
 }

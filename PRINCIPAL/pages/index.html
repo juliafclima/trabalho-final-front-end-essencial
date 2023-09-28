@@ -17,8 +17,17 @@
       href="../css/bootstrap-grid.min.css" />
    <link rel="stylesheet"
       href="../css/componentes.css" />
+   <link rel="stylesheet"
+      href="../css/formulario.css">
    <script src="../js/carrousel.js"
       defer></script>
+   <link rel="preconnect"
+      href="https://fonts.googleapis.com">
+   <link rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap"
+      rel="stylesheet">
 </head>
 
 <body>
@@ -67,7 +76,8 @@
                      alt="Imagem do Integrante" />
                   <h2>Thiago Garcia</h2>
                   <p>"Preparo + oportunidade <br>= sorte"</p>
-                  <a href="../../PORTFOLIO_THIAGO/portfolio/index.html" target="_blank"
+                  <a href="../../PORTFOLIO_THIAGO/portfolio/index.html"
+                     target="_blank"
                      class="button">Saiba mais</a>
                </div>
 
@@ -107,21 +117,43 @@
             </div>
          </div>
       </div>
+      <h3 class="tituloFormulario">Deixe um comentário</h3>
+      <div class="containerFormulario">
+         <form action="https://formsubmit.co/julia.l.carneiro@aluno.senai.br"
+            method="POST" >
+            <input type="hidden"
+               name="_next"
+               value="http://127.0.0.1:5500/PRINCIPAL/pages/sucesso.html">
+            <div class="formulario">
+               <label>Nome: </label>
+               <input type="text"
+                  name="name"
+                  required
+                  placeholder="Digite seu nome">
+            </div>
+            <div class="formulario">
+               <label>Email: </label>
+               <input type="email"
+                  name="email"
+                  required
+                  placeholder="Digite seu email">
+            </div>
+            <div class="formulario">
+               <label>Mensagem: </label>
+               <textarea rows="10"
+                  name="msg"
+                  required
+                  placeholder="Digite sua mensagem"></textarea>
+            </div>
+            <div class="formulario">
+               <button type="submit">Enviar</button>
+            </div>
+         </form>
+      </div>
    </main>
    <footer>
       <span>
-         Desenvolvido por
-         <a href="https://www.linkedin.com/in/juliafclima/"
-            target="_blank" class="externo">Julia Lima</a>
-         , 
-         <a href="#" target="_blank" class="externo">Vitor Melo</a>,
-         <a href="https://www.linkedin.com/in/mateus-oliveira-a65a23a2/"
-            target="_blank" class="externo">Mateus Oliveira</a>
-         ,
-         <a href="https://www.linkedin.com/in/r%C3%B3ger-ferreira-61438a1a6/" target="_blank" class="externo">Róger Ferreira</a>, 
-         <a href="#" target="_blank" class="externo">Rayane Lima </a>
-         e 
-         <a href="https://www.linkedin.com/in/thiago-garcia-dev/" target="_blank" class="externo">Thiago Garcia</a>
+         Grupo 6 - Front-End Essencial - Professor Roni
       </span>
    </footer>
 </body>
