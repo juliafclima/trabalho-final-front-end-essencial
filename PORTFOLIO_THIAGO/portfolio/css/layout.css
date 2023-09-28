@@ -61,8 +61,14 @@
     margin: 2rem auto;
 }
 
-.sobre .texto h3 {
+.sobre .texto h3, p {
     margin-bottom: 2rem;
+}
+
+.sobre .texto span {
+    color: var(--orange);
+    font-size: 1.7rem;
+    font-weight: bold;
 }
 
 .sobre .img img {
@@ -81,34 +87,13 @@
 }
 
 .tecnologias img {
-    width: 50px;
+    width: 48px;
     margin: 1rem;
 }
 
 .projetos {
     margin-bottom: 2rem;
 }
-
-/* .projetos .componente-projetos {
-    margin: 2rem auto;
-}
-
-.projetos h2 {
-    margin-bottom: 2rem;
-}
-
-.carousel .carousel-inner .componente-projetos img{
-    width: 80%;
-    margin: 0 auto;
-}
-
-.projetos .componente-projetos p{
-    margin-top: 2rem;
-}
-
-.projetos .componente-projetos a{
-    margin: .5rem;
-} */
 
 .projetos h2 {
     margin-bottom: 2rem;
@@ -117,6 +102,7 @@
 .carousel-item img {
     width: 80%;
     margin: 0 auto;
+    border-radius: 1rem;
 }
 
 
@@ -127,3 +113,27 @@
 .carousel-item .links a {
     margin: .5rem;
 }
+
+.seta {
+    margin-bottom: 9rem;
+}
+
+.icones a {
+    text-decoration: none;
+}
+
+/* barra de rolagem */
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--alt-gray);        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--orange);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid var(--dark-gray);  /* creates padding around scroll thumb */
+  }
