@@ -1,20 +1,21 @@
 @charset "UTF-8";
 
 * {
-   background-color: rgb(179, 174, 174);
+   background-color:#9EDDFF;
    margin: 0;
    padding: 0;
    border: 0;
    font-size: 100%;
    font: inherit;
    vertical-align: baseline;
-   font-family: Arial, Helvetica, sans-serif;
+   font-family: "Segoe UI";
 }
 
 .tituloPrincipal,
 .tituloSecundario {
-   color: rgb(224, 219, 219);
+   color: #12486B;
    text-align: center;
+   font-weight: bold;
    font-size: 3em;
    margin-top: 10px;
 }
