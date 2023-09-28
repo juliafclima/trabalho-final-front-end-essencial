@@ -1,0 +1,154 @@
+
+/*configurações gerais*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: #a8896c;
+  height: 100vh;
+}
+footer {
+  background-color: #333;
+  color: aliceblue;
+  text-align: center;
+  padding: 10px o;
+}
+
+/*inicio da barra de navegação em cima*/
+.nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.nav ul {
+  display: contents;
+}
+
+.nav ul li {
+  list-style: none;
+  margin: 10px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #9a734f;
+  transition: 0.4s ease;
+}
+.nav ul li a:hover {
+  color: black;
+}
+/*o card de apresentação*/
+/*foto em cima*/
+.perfil{
+  width: 180px;
+  border-radius: 60%;
+  border: 3px solid #9a734f;
+}
+
+.apresentacao {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  flex-direction: row;
+  background-color:#a8896c;
+  color: aliceblue;
+  padding: 20px 0;
+  border-radius: 7px;
+}
+.apresentacao div {
+  text-align: start;
+}
+.apresentacao div h1,
+h2 {
+  font-weight: 600;
+}
+/*seção sobre mim*/
+div.sobrerow {
+    font-size: 15px;
+    justify-content: space-between;
+   text-align-last: center;
+    padding: 20px 0;
+    columns: 2;
+}
+
+div.sobrerow h1{
+    font-size: 25px;
+    text-align:center;
+    left: 15px;
+}
+
+
+div.sobrerow p{
+  text-align-last: normal;
+}
+
+ img.sobremim-flutuante{
+  float: right;
+  width: 300px;
+  border-radius: 50%;
+  border: 3px solid #9a734f;
+  
+}
+/*seção academica*/
+div.inst{
+  font-size: 15px;
+  display: contents;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  flex-direction: row;
+  padding: 20px 0;
+  columns: 2;
+}
+
+div.inst h1{
+  font-size: 20px;
+  text-align: center;
+}
+div.acad{
+  padding-top: 20px;
+}
+.foto{
+  margin-top: 20px;
+}
+
+div ul{
+  display: block;
+  text-align-last: center;
+  list-style: none;
+}
+img.inst{
+  float: left;
+  width: 300px;
+  border-radius: 60%;
+  border: 3px solid #9a734f;
+  top: -100px ;
+  position: relative;
+}
+/*seção experiencia*/
+div.container-experiencia{
+  font-size: 15px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width: 100%;
+  flex-direction: row;
+  padding: 20px 0;
+  columns: 2;
+
+}
+div.exp h1{
+  font-size: 20px;
+  text-align: center;
+}
+div.exp p{
+ text-align-last: normal;
+}
+#exp{
+  text-align: center;
+}
